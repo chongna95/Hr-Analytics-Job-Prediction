@@ -23,11 +23,13 @@ promotion_last_5years|Whether or not the employee was promoted in the last 5 yea
 Department|The employee's department
 salary|The employee's salary (U.S. dollars)
 
+### Outliers
 The boxplot below shows distribution of `tenure` and detect any outliers exist in dataset.
 ![alt text](https://github.com/chongna95/Hr-Analytics-Job-Prediction/blob/main/images/Boxplot%20of%20Tenure.png)
 For Logistic Regression Model: Remove Outliers
 For Tree-based Machine Learning Model: Robust to Outliers
 
+# Feature Engineering
 In this case, it's likely that the company won't have satisfaction levels reported for all of its employees. It's also possible that the average_monthly_hours column is a source of some data leakage. If employees have already decided upon quitting, or have already been identified by management as people to be fired, they may be working fewer hours. Represent Feature Engineering by dropping redundant columns and creating new features from existing features.
 
 # Modeling and Evaluation 
