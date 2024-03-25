@@ -11,10 +11,10 @@ For HR Department, It is time-consuming and expensive to find, interview, and hi
 The HR dataset came from [Kaggle](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv). The data consisted of 15,000 employee and 10 features listed below. The bar chart below shows the breakdown of how many generous tippers (>20%) versus non-generous tippers that exist in the data set. 
 Variable  |Description |
 -----|-----|
-satisfaction_level|Employee-reported job satisfaction level [0&ndash;1]|
-last_evaluation|Score of employee's last performance review [0&ndash;1]|
-number_project|Number of projects employee contributes to|
-average_monthly_hours|Average number of hours employee worked per month|
+satisfaction_level|Employee-reported job satisfaction level [0&ndash;1]
+last_evaluation|Score of employee's last performance review [0&ndash;1]
+number_project|Number of projects employee contributes to
+average_monthly_hours|Average number of hours employee worked per month
 time_spend_company|How long the employee has been with the company (years)
 Work_accident|Whether or not the employee experienced an accident while at work
 left|Whether or not the employee left the company
