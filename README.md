@@ -25,6 +25,7 @@ salary|The employee's salary (U.S. dollars)
 
 ### Outliers
 The boxplot below shows distribution of `tenure` and detect any outliers exist in dataset.
+
 ![alt text](https://github.com/chongna95/Hr-Analytics-Job-Prediction/blob/main/images/Boxplot%20of%20Tenure.png)
 
 - For Logistic Regression Model: Remove Outliers
@@ -35,6 +36,7 @@ In this case, it's likely that the company won't have satisfaction levels report
 
 # Modeling and Evaluation 
 A random forest model comprising 500 decision trees was used to determine feature importance in employee would left or not. The below plot shows that  last_evaluation, number_project, tenure and overworked were the Top 4 most important factors in determining whether or not an employee will leave the company. The overall model performed with 4.4% AUC, 86.9% precision, 92% recall , 89.1% f1-score, and 96.3% accuracy.
+
 ![alt text](https://github.com/chongna95/Hr-Analytics-Job-Prediction/blob/main/images/Random%20Forest%20Feature%20Importance.png)
 
 # Conclusion
