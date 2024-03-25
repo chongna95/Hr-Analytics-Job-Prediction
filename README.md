@@ -24,7 +24,7 @@ Department|The employee's department
 salary|The employee's salary (U.S. dollars)
 
 The bar chart below shows the breakdown of how many generous tippers (>20%) versus non-generous tippers that exist in the data set. 
-
+![alt text](https://github.com/chongna95/Hr-Analytics-Job-Prediction/blob/main/images/Boxplot%20of%20Tenure.png)
 
 
 
