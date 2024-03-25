@@ -34,12 +34,8 @@ The boxplot below shows distribution of `tenure` and detect any outliers exist i
 In this case, it's likely that the company won't have satisfaction levels reported for all of its employees. It's also possible that the average_monthly_hours column is a source of some data leakage. If employees have already decided upon quitting, or have already been identified by management as people to be fired, they may be working fewer hours. Represent Feature Engineering by dropping redundant columns and creating new features from existing features.
 
 # Modeling and Evaluation 
-A random forest model comprising 500 decision trees was used to determine feature importance in employee would left or not. The below plot shows that trip duration, distance, and the cost of a fare were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 86% accuracy and 72% precision. 
-
-
-
-
-
-
+A random forest model comprising 500 decision trees was used to determine feature importance in employee would left or not. The below plot shows that  last_evaluation, number_project, tenure and overworked were the Top 4 most important factors in determining whether or not an employee will leave the company. The overall model performed with 4.4% AUC, 86.9% precision, 92% recall , 89.1% f1-score, and 96.3% accuracy.
+![alt text](https://github.com/chongna95/Hr-Analytics-Job-Prediction/blob/main/images/Random%20Forest%20Feature%20Importance.png)
 
 # Conclusion
+This model can benefit HR Department in knowing if an employee will leave the company or not. In the future, try building a K-means model on this data and analyzing the clusters may also be beneficial in helping the stakeholder address their business problem. 
