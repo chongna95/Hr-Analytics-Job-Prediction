@@ -8,7 +8,8 @@ The goal of this project was to create a logistic regression or tree-based machi
 For HR Department, It is time-consuming and expensive to find, interview, and hire new employees. It is important to understand what factors make the employee leave the company in order to increase employee retention which will be beneficial to the company.
 
 # Data Understanding
-The HR dataset came from [Kaggle](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv). The data consisted of 15,000 employee and 10 features listed below. The bar chart below shows the breakdown of how many generous tippers (>20%) versus non-generous tippers that exist in the data set. 
+The HR dataset came from [Kaggle](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv). The data consisted of 15,000 employee and 10 features listed below. 
+
 Variable  |Description |
 -----|-----|
 satisfaction_level|Employee-reported job satisfaction level [0&ndash;1]
@@ -21,6 +22,11 @@ left|Whether or not the employee left the company
 promotion_last_5years|Whether or not the employee was promoted in the last 5 years
 Department|The employee's department
 salary|The employee's salary (U.S. dollars)
+
+The bar chart below shows the breakdown of how many generous tippers (>20%) versus non-generous tippers that exist in the data set. 
+
+
+
 
 
 # Modeling and Evaluation 
