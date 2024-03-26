@@ -39,5 +39,8 @@ A random forest model comprising 500 decision trees was used to determine featur
 
 ![alt text](https://github.com/chongna95/Hr-Analytics-Job-Prediction/blob/main/images/Random%20Forest%20Feature%20Importance.png)
 
+# Visualization 
+[Tableau](https://public.tableau.com/app/profile/chong.na.ting/viz/HrAnalyticsJobPredictionEDA/Story3)
+
 # Conclusion
 This model can benefit HR Department in knowing if an employee will leave the company or not. In the future, try building a K-means model on this data and analyzing the clusters may also be beneficial in helping the stakeholder address their business problem. 
